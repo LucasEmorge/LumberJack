@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+img {
+    height: 75px;
+
+}
+.img2{
+    margin-left: 47%;
+    margin-right: 45%;
+}
+.C{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+  #conteudo {
+    display: none;
+    margin-top: 1rem;
+  }
+  .opcao {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 23%;
+    margin-right: 22%;
+  }
+  .opcao:hover {
+    background-color: #0056b3;
+  }
+    .opcao2 {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 23%;
+    margin-right: 22%;
+  }
+  .opcao2:hover {
+    background-color: #8c0000;
+  }
+  .R{
+    margin-left: 5%;
+  }

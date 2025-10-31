@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+img {
+    height: 75px;
+}
+.jogo-texto{
+    text-align: center;
+}
+.bg0{
+    color: aliceblue;
+    padding-left: 150px;
+}
+.bg1 {
+    color: aliceblue;
+    text-align: left;
+    padding-left: 10px;
+}
+.bg2{
+    padding-left: 100px;
+}
+
+.Nossos{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+.Jogos{
+    background-color: rgb(36, 35, 35);
+} 
+.conteudo {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    padding-right: 100px;
+}
+video {
+    width: 100%;
+}
+.gradiente{
+  height: 50px;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(43, 42, 42));
+} 
+.grupo-card{
+    background-color: rgb(43, 42, 42);
+}
+.card {
+    text-align: center;
+    background-color:  #000000;
+    display: inline-block;
+    color: #f5f5dc;
+    font-size: 20px;
+    height: 300px;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.card:hover{    
+    border-style: solid ;
+    border-color: white;
+    border-radius: 10px;
+}
+.card img{
+    height: 215px;
+    width: 100%;
+}
+
+.card img:hover{
+    border-radius: 10px;
+}
+
+.Container {
+    color: white;
+    background-color: rgb(43, 42, 42);
+    width: 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.Logo {
+    height: 500px;
+    padding-left: 150px;
+}
+.Texto {
+    padding-top: 150px;
+}
+.gradiente2{
+    height: 50px;
+    background: linear-gradient(to bottom, rgb(43, 42, 42), rgb(0, 0, 0));
+  }  
+footer{
+    height: 75px;
+    color: white;
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.lumber{
+    text-decoration: none;
+    color: white;
+}
+.container2{
+    background-color: rgb(43, 42, 42);
+    margin: 0 auto;
+    color: white;
+    background-image:url(img/Grupo-escuro.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Q{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.Pa{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.Pb{
+    text-align: center;
+    margin-bottom: 2%;
+}

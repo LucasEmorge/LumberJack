@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="CLT.css" />
+    <link rel="shortcut icon" href="img/CLT.jpg" type="image/x-icon" />
+    <title>CLT</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">
+          <img src="img/Irmaos.png" alt="" />
+        </a>
+        <div class="container">
+          <a class="navbar-brand active text-light">Bem-Vindo ao formulário de contratação da The Brothers</a>
+        </div>
+      </div>
+    </nav>
+    <!--Fim da navbar-->
+
+    <br><br><br><br><br>
+    <img src="img/Irmaos.png" alt="" class="img2" />
+    <h1 class="C">Formulário The Brothers</h1>
+    <br />
+    <p class="C">
+      Por meio deste formulário você jura por sua alma que servirá e seguirá
+      todas as regras da The Brothers até o fim de sua vida, e que, mesmo após a
+      morte, sua alma ainda será de nosso pertence?
+    </p>
+    <br />
+    <div class="opcao" onclick="continuar()" id="btnVoltar">Sim</div>
+    <div class="opcao2" onclick="voltar()" id="btnVoltar">Não</div>
+    <br />
+
+    <div id="conteudo" style="display: none">
+      <div
+        class="d-flex justify-content-center align-items-center vh-100 text-white"
+      >
+        <div class="card bg-secondary p-4 shadow-lg" style="width: 25rem">
+          <h3 class="text-center mb-3">Ok, agora insira seus dados</h3>
+          <form id="formDados">
+            <div class="mb-3">
+              <label class="form-label">Nome</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">CPF</label>
+              <input type="text" class="form-control" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" required />
+            </div>
+            <button class="btn btn-primary w-100 fw-bold" type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

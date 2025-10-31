@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Irmaos.png">
+    <title>Home | The brothers</title>
+</head>
+<body>
+    <!--Navbar-->
+  <nav class="navbar fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> 
+        <img src="img/Irmaos.png" alt="">
+    </a>
+    <div class="container">
+      <a class="navbar-brand active text-light" href="#Nossos-Jogos">Nossos jogos</a>
+      <a class="navbar-brand text-light" href="#Quem-somos">Quem somos</a>
+      <a class="navbar-brand text-light" href="#Trabalhe-conosco">Trabalhe conosco</a>
+      <a class="navbar-brand disabled text-secondary" aria-disabled="true">Em breve!!!</a>
+    </div>
+  </div>
+  </nav>
+      <!--Fim da navbar-->
+
+
+
+      <!--Anuncio do jogo-->
+    <div class="container">
+      <div class="row text-center"> 
+        <div class="col-4">
+          <div class="conteudo">
+            <br><br><br><br><br>
+            <h2>Lumberjack Machine</h2>
+            <br>
+            <h3>Nosso novo jogo acabou de sair!!!</h3>
+            <br>
+            <p>Você esta vendo uma demo do jogo completo</p>
+            <br>
+            <button type="button" class="btn btn-danger" id="Nossos-Jogos" onclick="window.location.href='jogo.html';">Compre agora😡!!!</button>
+        </div>
+      </div>
+      <div class="col-8">
+        <br><br><br><br><br>
+        <video autoplay muted loop >
+          <source src="vid/Vídeo sem título ‐ Feito com o Clipchamp.mp4" type="video/mp4" >
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>  
+    </div>
+    </div>
+    </div>
+      <!--Fim do anuncio do jogo-->
+    <div class="gradiente"></div> 
+      <!--Nossos jogos(Um apenas, mas ignora)-->
+     <div class="grupo-card" >
+      <br>
+      <h1 class="Nossos">Nossos Jogos</h1>
+      <br>
+      <div class="card">
+        <a href="jogo.html" class="lumber">
+        <img src="img/L.png" alt="...">
+        <h4>Lumberjack</h4>
+        <h6>Nosso novo jogo sobre um lenhador em uma aventura epíca pela a floresta</h6>
+      </a>
+      </div>
+      <div class="card">
+        <a href="star.html" class="lumber">
+        <img src="img/Star-Hunt.jpeg" alt="...">
+        <h4>Star Hunt</h4>
+        <h6> Desvie de obstaculos e inimigos, passe fases no nosso jogo STAR-HUNT!</h6>
+     </a> </div>
+      <div class="card">
+        <a href="pancakes.html" class="lumber">
+        <img src="img/Pancakes.jpg" alt="..." >
+        <h4>Pancakes</h4>
+        <h6 id="Quem-somos">Jogo baseado em clash royale, onde você é a mini pekka. Seu objetivo é coletar a panqueca.</h6>
+      </a></div>
+      <br>
+      <br>
+      <br>
+    </div>
+
+<!--Quem somos-->
+
+<div class="container2" >
+  <br><br><br><br><br>
+    <h1 class="Q">Quem somos?</h1>
+    <p class="Pa">Somos um pequeno grupo de 5 pessoas que tentam fazer jogos, os "Jogos" são bem simples mas nos enchem de orgulho. Todos nós nos conhecemos este ano, e o responsável por isso, mesmo sem querer, foi o Guilherme. Ele conheceu o Lucas Laurindo no dia da brincadeira do copo, os gêmeos... até hoje ele não sabe direito como apareceram. Já o Cobra d'agua entrou pro grupo aos poucos, durante as aulas no laboratório. E assim, meio por acaso, o grupo foi se formando.</p>
+  <br>
+    <div class="row gx-0 text-center">
+    <div class="col-6">
+      <h1 class="Q">Nossos Valores</h2>
+      <p class="Pb">Nos colocamos sempre em 1° Lugar, em 2° vem o dinheiro. Na THE BROTHERS somos UM, 1 escravo e 4 preguiçosos.</p>
+    </div>
+  <div class="col-6">
+      <h1 class="Q">Top 1°</h1>
+      <p id="Trabalhe-conosco" class="Pb">Somos Top 1 no 1DS, top 1 em ruindade, agora que estamos no topo ninguem nos tira!!!</p>
+      <br><br><br><br><br>
+    </div>
+  </div>
+</div>
+
+<!--Trabalhe conosco--> 
+    
+    <div class="Container">
+      <div class="row text-center">
+        <div class="col-4">
+      <img src="img/Irmaos.png" alt="" class="Logo">
+    </div>
+    <div class="col-8">
+      <div class="Texto">
+      <h1>Trabalhe conosco!</h1>
+      <br>
+      <p>Não sabos fazer jogo, precisamos de ajuda 😃</p>
+      <br>
+      <button type="button" class="btn btn-success" onclick="window.location.href='CLT.html';">Participee</button>
+    </div>
+    </div>
+  </div>
+</div>
+    <!--Coprigtht-->
+    <div class="gradiente2"></div>
+    <br>
+    <footer>© 2025 The Brothers, Inc. Todos os direitos reservados.</footer>
+    <!--Java Script-->
+        <link href="js/bootstrap.bundle.min.js">
+<script>
+  window.addEventListener("load", function() {
+    const msg = localStorage.getItem("mensagemContratado");
+    if (msg) {
+      alert(msg);
+      localStorage.removeItem("mensagemContratado");
+    }
+  });
+</script>
+</body>  
+</html>
